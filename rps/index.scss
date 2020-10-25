@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #020040;
+}
+
+.container {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 4px white solid;
+        display: block;
+        margin: auto;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1);
+            transition: all .3s ease-in-out;
+            border: 4px lightcoral solid;
+        }
+    }
+}
+
+#output {
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 4px lightcoral solid;
+        display: block;
+        margin: auto;
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        img {
+            margin-bottom: 5%;
+        }
+    }
+}
