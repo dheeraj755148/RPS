@@ -1,8 +1,7 @@
 function game(a) {
     var computer = Math.floor(Math.random() * (4 - 1) + 1);
 
-    console.log(a);
-    console.log(computer);
+
     if (computer <= 1) {
         document.getElementById("output").innerHTML = "<img src='./images/rock.png'>"
 
